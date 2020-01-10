@@ -166,7 +166,7 @@ function cube_mesh()
     push!(normals, Vec3( 0, 1, 0)) # U
     push!(normals, Vec3( 0,-1, 0)) # D
     push!(normals, Vec3( 0, 0, 1)) # C
-    push!(normals, Vec3( 0, 1,-1)) # F
+    push!(normals, Vec3( 0, 0,-1)) # F
 
     # 8 faces, 2 triangles each
     push!(triangles, OBJTriangle([1,2,3], [1,2,3], [4,4,4])) # bottom face 1
