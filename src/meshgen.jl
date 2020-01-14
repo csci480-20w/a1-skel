@@ -13,11 +13,11 @@ function parse_cmdline()
         "-n"
             help="divisionsU"
             arg_type=Int
-            default=16
+            default=32
         "-m"
             help="divisionsV"
             arg_type=Int
-            default=32
+            default=16
         "-i"
             help="input filename"
         "outfile"
